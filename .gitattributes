@@ -2,4 +2,4 @@
 
 /.gitignore export-ignore
 /.gitattributes export-ignore
-/test/ export-ignore
+/tests/ export-ignore
