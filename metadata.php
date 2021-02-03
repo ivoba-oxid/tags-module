@@ -49,7 +49,7 @@ $aModule = array(
     ),
     'files'       => array(
         'oetagsitaglist'       => 'oe/oetags/core/contract/oetagsITagList.php',
-        'oetagsmodule'         => 'oe/oetags/core/oetagsmodule.php',
+        'oetagsmodule'         => 'oe/oetags/core/oetagsModule.php',
         'oetagsTag'            => 'oe/oetags/models/oetagsTag.php',
         'oetagsTagCloud'       => 'oe/oetags/models/oetagsTagCloud.php',
         'oetagsTagList'        => 'oe/oetags/models/oetagsTagList.php',
@@ -179,7 +179,7 @@ $aModule = array(
         array('group' => 'main', 'name' => 'oetagsMetaKeywords', 'type' => 'str', 'value' => 'keywords'),
     ),
     'events'      => array(
-        'onActivate'   => 'oeTagsModule::onActivate',
-        'onDeactivate' => 'oeTagsModule::onDeactivate',
+        'onActivate'   => 'oetagsModule::onActivate',
+        'onDeactivate' => 'oetagsModule::onDeactivate',
     ),
 );

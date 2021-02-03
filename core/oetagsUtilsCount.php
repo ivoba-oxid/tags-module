@@ -1,7 +1,4 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
 
 class oetagsUtilsCount extends oetagsUtilsCount_parent
 {

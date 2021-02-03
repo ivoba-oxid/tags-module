@@ -1,11 +1,7 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
 
 /**
  * oetagsTagCloud set interface
- *
  */
 interface oetagsITagList
 {

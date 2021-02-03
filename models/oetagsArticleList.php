@@ -1,14 +1,10 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
 
 use OxidEsales\Eshop\Core\Registry;
 
 /**
  * Article list manager.
  * Collects list of article according to collection rules (categories, etc.).
- *
  */
 class oetagsArticleList extends oetagsArticleList_parent
 {

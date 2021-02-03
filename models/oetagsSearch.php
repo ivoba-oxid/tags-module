@@ -1,11 +1,6 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Implements search
- *
  */
 class oetagsSearch extends oetagsSearch_parent
 {

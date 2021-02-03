@@ -1,8 +1,4 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
 if (!defined('OETAGCLOUD_MINFONT')) {
     define('OETAGCLOUD_MINTAGLENGTH', 4);
     define('OETAGCLOUD_STARTPAGECOUNT', 20);

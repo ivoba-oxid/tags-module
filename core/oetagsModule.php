@@ -1,21 +1,11 @@
 <?php
 /**
-
- *
- * @category      module
- * @package       tags
- * @author        OXID eSales AG
- * @link          http://www.oxid-esales.com/
- * @copyright (C) OXID eSales AG 2003-2016
- */
-
-/**
- * Class oeTagsModule
+ * Class oetagsModule
  * Handles module setup, provides additional tools and module related helpers.
  *
  * @codeCoverageIgnore
  */
-class oeTagsModule extends oxModule
+class oetagsModule extends oxModule
 {
     const OETAGS_STATIC_SEO = 'index.php?cl=oetagstagscontroller';
 

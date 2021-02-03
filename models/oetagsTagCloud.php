@@ -1,8 +1,4 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
 if (!defined('OETAGCLOUD_MINFONT')) {
     define('OETAGCLOUD_MINFONT', 100);
     define('OETAGCLOUD_MAXFONT', 400);
@@ -13,7 +9,6 @@ if (!defined('OETAGCLOUD_MINFONT')) {
 
 /**
  * Class dedicated to tag cloud handling
- *
  */
 class oetagsTagCloud extends \oxSuperCfg
 {

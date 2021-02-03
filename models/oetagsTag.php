@@ -1,15 +1,10 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
 if (!defined('OETAGCLOUD_MINTAGLENGTH')) {
     define('OETAGCLOUD_MINTAGLENGTH', 4);
 }
 
 /**
  * Class dedicated to tags handling
- *
  */
 class oeTagsTag extends \oxSuperCfg
 {
