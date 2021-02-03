@@ -1,9 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Admin article main manager.
  * Collects and updates (on user submit) article base parameters data ( such as
  * title, article No., short Description and etc.).

@@ -1,9 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Locator controller for: category, vendor, manufacturers and search lists.
  */
 class oetagsLocator extends oetagsLocator_parent
