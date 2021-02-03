@@ -1,12 +1,7 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Class dedicated to article tags handling.
  * Is responsible for saving, returning and adding tags for given article.
- *
  */
 class oeTagsTagSet extends \oxSuperCfg implements Iterator
 {

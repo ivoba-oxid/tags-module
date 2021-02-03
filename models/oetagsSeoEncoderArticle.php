@@ -1,11 +1,6 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Seo encoder for articles
- *
  */
 class oetagsSeoEncoderArticle extends oetagsSeoEncoderArticle_parent
 {

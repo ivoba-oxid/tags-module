@@ -1,9 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Article seo config class
  */
 class oetagsArticleSeo extends oetagsArticleSeo_parent

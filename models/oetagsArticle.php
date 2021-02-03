@@ -1,7 +1,4 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
 
 define('OXARTICLE_LINKTYPE_TAG', 4);
 
@@ -9,7 +6,6 @@ define('OXARTICLE_LINKTYPE_TAG', 4);
  * Article manager.
  * Creates fully detailed article object, with such information as VAT,
  * discounts, etc.
- *
  */
 class oetagsArticle extends oetagsArticle_parent
 {

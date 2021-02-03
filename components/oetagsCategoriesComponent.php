@@ -1,9 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Transparent category manager class (executed automatically).
  *
  * @subpackage oxcmp

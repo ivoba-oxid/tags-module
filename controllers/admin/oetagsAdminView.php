@@ -1,10 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-
-/**
  * @internal This class should not be directly extended, instead of it oxAdminView class should be used.
  */
 class oetagsAdminView extends oetagsAdminView_parent

@@ -1,13 +1,11 @@
 <?php
-/**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
 
 /**
  * Article details information page.
  * Collects detailed article information, possible variants, such information
  * as crosselling, similarlist, picture gallery list, etc.
  * OXID eShop -> (Any chosen product).
+ * Class oetagsArticleDetailsController
  */
 class oetagsArticleDetailsController extends oetagsArticleDetailsController_parent
 {

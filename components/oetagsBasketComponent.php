@@ -1,9 +1,5 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Main shopping basket manager. Arranges shopping basket
  * contents, updates amounts, prices, taxes etc.
  *

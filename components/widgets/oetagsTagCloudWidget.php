@@ -1,12 +1,7 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Tag cloud.
  * Shop starter, manages starting visible articles, etc.
- *
  */
 class oetagsTagCloudWidget extends \oxWidget
 {

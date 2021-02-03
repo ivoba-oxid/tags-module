@@ -1,12 +1,7 @@
 <?php
 /**
- * #PHPHEADER_OETAGS_LICENSE_INFORMATION#
- */
-
-/**
  * Class dedicated to article tags handling.
  * Is responsible for saving, returning and adding tags for given article.
- *
  */
 class oetagsArticleTagList extends \oxI18n implements oetagsITagList
 {
@@ -120,7 +115,7 @@ class oetagsArticleTagList extends \oxI18n implements oetagsITagList
         }
 
         $database = oxDb::getDb();
-        $tags = $tagSet; 
+        $tags = $tagSet;
 
         $table = getLangTableName('oxartextends', $this->getLanguage());
         $languageSuffix = oxRegistry::getLang()->getLanguageTag($this->getLanguage());
