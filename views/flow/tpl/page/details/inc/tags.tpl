@@ -9,7 +9,7 @@
 
     <p class="tagCloud">
         [{assign var="oCloudManager" value=$oView->getTagCloudManager()}]
-        [{if $oCloudManager->getCloudArray()|count < 0}]
+        [{if $oCloudManager->getCloudArray()|@count <= 0}]
             [{oxmultilang ident="NO_TAGS"}]
         [{/if}]
         [{foreach from=$oCloudManager->getCloudArray() item="oTag" name="detailsTags"}]

@@ -59,8 +59,6 @@ class oetagsModule extends oxModule
 
     /**
      * Module deactivation script.
-     *
-     * For now an empty method, not sure, if later things are added :)
      */
     public static function onDeactivate()
     {

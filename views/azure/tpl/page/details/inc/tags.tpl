@@ -8,7 +8,7 @@
     [{oxscript add="$('#editTag').click(oeTag.editTag);"}]
     <p class="tagCloud">
         [{assign var="oCloudManager" value=$oView->getTagCloudManager()}]
-        [{if $oCloudManager->getCloudArray()|count < 0}]
+        [{if $oCloudManager->getCloudArray()|@count <= 0}]
             [{oxmultilang ident="NO_TAGS"}]
         [{/if}]
         [{assign var="oTagSet" value=$oCloudManager->getCloudArray()}]
