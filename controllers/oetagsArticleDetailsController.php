@@ -274,7 +274,7 @@ class oetagsArticleDetailsController extends oetagsArticleDetailsController_pare
      */
     public function canChangeTags()
     {
-        if ($this->getUser()) {
+        if ($this->getConfig()->getConfigParam('oetagsAllowEdit') && $this->getUser()) {
             return true;
         }
 

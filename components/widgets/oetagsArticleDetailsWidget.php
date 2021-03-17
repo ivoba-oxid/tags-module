@@ -15,13 +15,13 @@ class oetagsArticleDetailsWidget extends oetagsArticleDetailsWidget_parent
     protected $_blCanEditTags = null;
 
     /**
-     * Checks if rating functionality is on and allowed to user
+     * Checks if editing of tags is allowed in frontend
      *
      * @return bool
      */
     public function canChangeTags()
     {
-        if ($oUser = $this->getUser()) {
+        if ($this->getConfig()->getConfigParam('oetagsAllowEdit') && $this->getUser()) {
 
             return true;
         }
