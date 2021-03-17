@@ -151,6 +151,21 @@ $aModule = [
             'file'     => 'views/blocks/wave/page_oetagscontroller.tpl',
         ],
 
+        //moga
+        // no sidebar here
+        [
+            'theme'    => 'moga',
+            'template' => 'page/details/inc/tabs.tpl',
+            'block'    => 'details_tabs_tags',
+            'file'     => 'views/blocks/moga/details_tabs_tags.tpl',
+        ],
+        [
+            'theme'    => 'moga',
+            'template' => 'page/oetagstagscontroller.tpl',
+            'block'    => 'page_oetagscontroller',
+            'file'     => 'views/blocks/moga/page_oetagscontroller.tpl',
+        ],
+
         //custom theme (note: structure needs to be as wave or make own tags module that overrides this module settings)
         [
             'template' => 'page/details/inc/tabs.tpl',
