@@ -1,9 +1,10 @@
 [{capture append="oxidBlock_content"}]
     [{assign var="template_title" value="TAGS"|oxmultilangassign}]
+    [{assign var="topWidth" value=$oViewConf->getViewThemeParam('sTopWidth')}]
     [{if $oView->getTagCloudManager()}]
-    <h1 class="page-header" id="tags">[{oxmultilang ident="TAGS"}]</h1>
-    <div>
-        <p id="tagsCloud">
+    <div class="container[{if $topWidth == 'w100cContainer'}]-xxl[{else}]-fluid[{/if}]">
+        <h1>[{oxmultilang ident="TAGS"}]</h1>
+        <p id="tagsCloud" class="pb-5">
             [{assign var="oTagsManager" value=$oView->getTagCloudManager()}]
             [{foreach from=$oTagsManager->getCloudArray() item="oTag" key=sTagTitle}]
             [{assign var="iTagSize" value=$oTagsManager->getTagSize($sTagTitle)}]
