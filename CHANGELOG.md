@@ -19,6 +19,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Security
 
+## [2.4.0] - 2021-07-30
+
+### Added
+- moga theme support
+
 ## [2.3.1] - 2020-03-18
 
 ### Fixed
